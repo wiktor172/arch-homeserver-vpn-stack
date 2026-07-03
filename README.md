@@ -16,14 +16,7 @@ The setup uses:
 
 I wanted my home server to be able to run normal self-hosted services, but also have a secure way of connecting to it when I am not at home.
 
-The server is on my home LAN:
-
-```text
-Home server IP: 192.168.0.123
-WireGuard network: 10.8.0.0/24
-WG-Easy web UI: 51821/tcp
-WireGuard VPN port: 51820/udp
-```
+The server is on my home LAN
 
 The idea is that my laptop or phone can connect to the VPN, then access the server as if I was still at home.
 
